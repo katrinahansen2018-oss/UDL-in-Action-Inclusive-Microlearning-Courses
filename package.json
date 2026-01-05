@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://katehansen.github.io/UDL-in-Action-Inclusive-Microlearning-Courses",
+  "homepage": "https://katrinahansen2018-oss.github.io/UDL-in-Action-Inclusive-Microlearning-Courses",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
