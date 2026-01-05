@@ -1,10 +1,9 @@
 import React from 'react';
-import { LucideIcon } from 'lucide-react';
 
 interface Course {
   id: string;
   title: string;
-  icon: LucideIcon;
+  icon: React.ComponentType<{ className?: string; 'aria-hidden'?: boolean }>;
   description: string;
   udlElements: string[];
   link: string | null;
