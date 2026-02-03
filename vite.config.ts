@@ -7,5 +7,4 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: '/UDL-in-Action-Inclusive-Microlearning-Courses/',
 });
