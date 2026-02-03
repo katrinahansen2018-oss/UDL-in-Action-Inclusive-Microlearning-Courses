@@ -50,14 +50,14 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
-      
+
       <main className="container mx-auto px-6 py-12 max-w-7xl">
         <div className="grid gap-8 md:gap-12 lg:grid-cols-3">
           {courses.map((course) => (
             <CourseSection key={course.id} course={course} />
           ))}
         </div>
-        
+
         <BackToPortfolio />
       </main>
     </div>
