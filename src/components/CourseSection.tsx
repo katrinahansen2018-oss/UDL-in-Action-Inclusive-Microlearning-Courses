@@ -6,7 +6,7 @@ interface Course {
   icon: React.ComponentType<{ className?: string; 'aria-hidden'?: boolean }>;
   description: string;
   udlElements: string[];
-  link: string | null;
+  link?: string;
 }
 
 interface CourseSectionProps {
